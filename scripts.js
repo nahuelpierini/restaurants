@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <h2>${restaurante.nombre}</h2>
                         ${restaurante.img ? `<img src="${restaurante.img}" alt="${restaurante.nombre}" />` : ''}
                         <p>Speciality: ${restaurante.especialidad}</p>
-                        <p>Personal Punctuation: ${restaurante.ranking}</p>
+                        <p>Punctuation: ${restaurante.ranking}</p>
                         <a href="${restaurante.link ? restaurante.link : '#'}" target="_blank" class="btn">${restaurante.link ? 'Google Maps' : 'NO GOOGLE MAPS'}</a>
                     `;
                     restaurantesSection.appendChild(restaurantDiv);
