@@ -13,6 +13,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 link: "https://www.google.com/maps/place/Bar+Los+Grana%C3%ADnos+(Cala+de+Mijas)/@36.4981042,-4.6891748,17z/data=!3m1!4b1!4m6!3m5!1s0xd731fcad28519e9:0x31b4c68f4c706985!8m2!3d36.4980999!4d-4.6865999!16s%2Fg%2F11c0r5z1zv?entry=ttu"
             },
             {
+                nombre: "La Butibamba",
+                img: "images/butibamba.png",
+                especialidad: "Pork loin, sandwich",
+                ranking: "Excelent",
+                link: "https://www.google.com/maps/place/Venta+Restaurante+La+Butibamba/@36.5016937,-4.6859999,18z/data=!4m10!1m2!2m1!1sla+butibamba!3m6!1s0xd731e291c0daa61:0xb669920ad764b6d8!8m2!3d36.5016937!4d-4.6847124!15sCgxsYSBidXRpYmFtYmFaDiIMbGEgYnV0aWJhbWJhkgEKcmVzdGF1cmFudOABAA!16s%2Fg%2F1tpf8g_h?entry=ttu"
+            },
+            {
                 nombre: "Utopia",
                 img: "images/utopia.png",
                 especialidad: "Fish, gourmet",
@@ -72,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function() {
         ],
         cocktail: [
             {
-                nombre: "Bar lo del Nanet",
+                nombre: "Bar lo Del Nanet",
                 img: "images/bar_lo_del_nanet.png",
                 especialidad: "Cocktail",
                 ranking: "Good",
