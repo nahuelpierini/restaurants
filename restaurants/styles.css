@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; /* Azul claro de playa */
+    background-color: #f0f8ff;
     color: #333;
 }
 
 header {
-    background-color: #0077b6; /* Azul profundo del mar */
+    background-color: #0077b6;
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -18,7 +18,7 @@ header h1 {
 }
 
 nav {
-    background-color: #00b4d8; /* Azul cielo */
+    background-color: #00b4d8;
 }
 
 .categories {
@@ -34,7 +34,7 @@ nav {
     padding: 1em;
     cursor: pointer;
     color: white;
-    border-right: 1px solid #0096c7; /* Azul intermedio */
+    border-right: 1px solid #0096c7;
     flex: 1;
     text-align: center;
     transition: background-color 0.3s ease;
@@ -45,12 +45,12 @@ nav {
 }
 
 .category:hover {
-    background-color: #0096c7; /* Azul intermedio */
+    background-color: #0096c7;
 }
 
 main {
     padding: 1em;
-    background-color: #e0f7fa; /* Fondo azul muy claro */
+    background-color: #e0f7fa;
 }
 
 .restaurant-list {
@@ -72,10 +72,10 @@ main {
 }
 
 .restaurant img {
-    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
-    height: auto; /* Ajusta automáticamente la altura según el ancho para mantener la proporción */
-    max-width: 300px; /* Tamaño máximo para asegurar que no se desborde en pantallas pequeñas */
-    object-fit: cover; /* Ajusta la imagen manteniendo la relación de aspecto y cubriendo el contenedor */
+    width: 100%; 
+    height: auto; 
+    max-width: 300px;
+    object-fit: cover;
     border-radius: 5px;
 }
 
@@ -88,7 +88,7 @@ main {
     display: inline-block;
     margin-top: 1em;
     padding: 0.5em 1em;
-    background-color: #0077b6; /* Azul profundo del mar */
+    background-color: #0077b6;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -96,7 +96,7 @@ main {
 }
 
 .restaurant .btn:hover {
-    background-color: #0096c7; /* Azul intermedio */
+    background-color: #0096c7;
 }
 
 .restaurant:hover {
@@ -106,13 +106,13 @@ main {
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #0077b6; /* Azul profundo del mar */
+    background-color: #0077b6;
     color: white;
 }
 
 @media (max-width: 768px) {
     .restaurant img {
-        max-width: 100%; /* La imagen ocupará todo el ancho disponible en dispositivos más pequeños */
+        max-width: 100%;
     }
 }
 
